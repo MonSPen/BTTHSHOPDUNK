@@ -1,0 +1,66 @@
+﻿.product-top p {
+    margin-bottom: 30px;
+    font-family: Arial;
+    margin: 0 12px;
+    font-size: 12px;
+    display: inline;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+}
+
+.anhIphone {
+    display: table;
+}
+
+.product-content {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+/*=====*/
+#product-content-left {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+#product-content-right {
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+
+#product-content-right-price {
+    border-top-width: thin;
+}
+
+#product-content-left-big-img {
+    width: 80%;
+    height: 50%;
+    padding-right: 20px;
+}
+
+    #product-content-left-big-img img {
+        width: 100%;
+        cursor: crosshair;
+    }
+
+#list-region {
+    float: right;
+}
+
+#memory {
+    height: 25%;
+    width: 10%;
+}
+
+#product-related-title {
+    float: right;
+}
+
+#list-region {
+    float: initial;
+}
